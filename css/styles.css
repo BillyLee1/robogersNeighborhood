@@ -1,0 +1,24 @@
+body {
+  background-color: #B6C199;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+}
+
+.wrapper {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.subText {
+  width: 80%;
+}
+
+.title {
+  margin: auto;
+}
+
+.buttonDiv {
+  width: 15%;
+}

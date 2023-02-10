@@ -9,11 +9,15 @@
 </head>
 <body>
   <div class="wrapper">
-    <h1>Welcome to Mr. Roboger's Neighborhood. :)</h1>
-    <h3>I will count up from 0 to the number you input. However, there will be a catch. For every number containing 1, I will change it to "Beep!". For every number containing 2, I will change it to "Boop!" and for every number containing 3, I will change it to "Won't you be my neighbor?" Give it a try :D</h3>
+    <h1 class="title">Welcome to Mr. Roboger's Neighborhood. :)</h1>
+    <br>
+    <br>
+    <h3 class="subText">I will count up from 0 to the number you input. However, there will be a catch. For every number containing 1, I will change it to "Beep!". For every number containing 2, I will change it to "Boop!" and for every number containing 3, I will change it to "Won't you be my neighbor?" Give it a try :D</h3>
     <label for="prompt">Enter a number from 1 - 200</label>
-    <input type ="number">
-    <input type="button" class="btn" id="btn" value="Submit"/>
+    <div class="buttonDiv">
+      <input type ="number">
+      <input type="button" class="btn" id="btn" value="Submit"/>
+    </div>
 
     <div id="hidden" class="answer">
       <h4 id="ans"></h4>
