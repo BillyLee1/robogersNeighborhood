@@ -28,3 +28,7 @@ body {
 label {
   margin: auto;
 }
+
+.hidden {
+  display: none;
+}
