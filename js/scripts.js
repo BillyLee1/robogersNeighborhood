@@ -11,13 +11,17 @@ function roboOutput(num) {
   let numArray = [];
   let tempNum = "";
   let stringArray = "";
-  for(let i = 0; i <= num; i++) {
+  
+  for (let i = 0; i <= num; i++) {
     tempNum = i.toString();
     numArray.push(" " + roboEditor(tempNum));
   }
+
   let finalOutput = document.querySelector("#ans");
+
   stringArray = numArray.toString();
   finalOutput.innerText = stringArray;
+
   document.querySelector(".hidden").removeAttribute("class");
 }
 
@@ -36,7 +40,6 @@ function roboEditor(i) {
 function hideAns() {
   document.querySelector("#answer").setAttribute("class", "hidden");
 }
-
 
 document.addEventListener("DOMContentLoaded", function() {
   const submit = document.getElementById("btn");
