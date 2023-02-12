@@ -3,7 +3,7 @@ function roboHandler(event) {
   hideAns;
 
   const num = document.querySelector("input[type='number']").value;
-  
+
   roboOutput(num);
 }
 
@@ -12,10 +12,10 @@ function roboOutput(num) {
   let tempNum = "";
   for(let i = 0; i <= num; i++) {
     tempNum = i.toString();
-    numArray.push(roboEditor(tempNum));
+    numArray.push(" " + roboEditor(tempNum));
   }
   let finalOutput = document.querySelector("#ans");
-  finalOutput = numArray.innerText;
+  finalOutput.append(numArray);
   document.querySelector(".hidden").removeAttribute("class");
 }
 
