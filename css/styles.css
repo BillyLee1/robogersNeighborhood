@@ -2,6 +2,7 @@ body {
   background-color: #B6C199;
   display: flex;
   justify-content: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .wrapper {
@@ -9,6 +10,7 @@ body {
   width: 80%;
   flex-direction: column;
   border: 1px solid;
+  padding: 10px;
 }
 
 .subText {
@@ -31,4 +33,17 @@ label {
 
 .hidden {
   display: none;
+}
+
+#answer {
+  border: 1px dotted;
+  margin: 10px;
+  padding: 10px;
+}
+
+img {
+  width: 30%;
+  height: 50%;
+  margin: auto;
+  border: 2px solid;
 }
