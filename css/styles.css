@@ -2,17 +2,18 @@ body {
   background-color: #B6C199;
   display: flex;
   justify-content: center;
-  border: 1px solid;
 }
 
 .wrapper {
   display: flex;
-  width: 50%;
+  width: 80%;
   flex-direction: column;
+  border: 1px solid;
 }
 
 .subText {
   width: 80%;
+  margin: auto;
 }
 
 .title {
@@ -21,4 +22,9 @@ body {
 
 .buttonDiv {
   width: 15%;
+  margin: auto;
+}
+
+label {
+  margin: auto;
 }
